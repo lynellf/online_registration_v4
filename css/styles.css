@@ -1,0 +1,58 @@
+/*Base Styles*/
+@import url('https://fonts.googleapis.com/css?family=Cutive|Scheherazade');
+
+/*Layout*/
+
+* {
+  box-sizing: border-box;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+ .sub-title,
+.contact-info, .newsletter {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+header {
+  font-family: 'Scheherazade', serif;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.title-card {
+  font-family: 'Cutive', serif;
+  color: #FFF;
+  background-color: #2D3945;
+}
+
+.sub-title {
+  border-bottom: medium solid black;
+  font-size: 1.3em;
+}
+
+.contact-info, .newsletter {
+  margin-top: 0.2em;
+  padding-top: 1em;
+  border-top: thin solid black;
+  font-family: 'Scheherazade', serif;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter {
+
+}
+
+footer {
+  text-align: center;
+}
