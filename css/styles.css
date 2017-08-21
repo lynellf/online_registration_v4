@@ -236,13 +236,6 @@ footer {
 
 /*Media Queries*/
 
-@media (min-width: 459px) {
-
-  .sub-title-banner {
-    width: 93.028%;
-  }
-}
-
 @media (min-width: 768px) {
 
   .sub-title-banner h3 {
